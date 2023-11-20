@@ -1,0 +1,27 @@
+@base_url = https://localhost:7015/api/tarefa
+
+### Listar Tarefas ###
+GET {{base_url}}/listar
+
+### Criar Tarefa ###
+POST {{base_url}}/cadastrar
+Content-Type: application/json
+
+{
+  "Titulo": "Compras para a Casa",
+  "Descricao": "1. prato 2. copo",
+  "CategoriaId": 2,
+  "Status": "Em andamento"
+}
+
+### get Lista "Em andamento" e "Não iniciada"
+GET {{base_url}}/listarnaoconcluidas
+
+### get Lista "Concluidas"
+GET {{base_url}}/concluidas
+
+### alterar Status 
+PATCH {{base_url}}/alterar/7
+
+
+

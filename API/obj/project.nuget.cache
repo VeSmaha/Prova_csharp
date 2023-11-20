@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "dgSpecHash": "LBdXU03XxnR3+UCrfqskyoQreg1BCaLw2d/0LqaN1+Mw6KnTC4WduPF44eXZr77KCPqqcFyOYX9FzIQtPMl4XQ==",
+  "success": true,
+  "projectFilePath": "D:\\vezinha\\Prova_csharp\\Api\\API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\smaha\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.25\\microsoft.data.sqlite.core.6.0.25.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.25\\microsoft.entityframeworkcore.6.0.25.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.25\\microsoft.entityframeworkcore.abstractions.6.0.25.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.25\\microsoft.entityframeworkcore.analyzers.6.0.25.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.25\\microsoft.entityframeworkcore.design.6.0.25.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.25\\microsoft.entityframeworkcore.relational.6.0.25.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\6.0.25\\microsoft.entityframeworkcore.sqlite.6.0.25.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\6.0.25\\microsoft.entityframeworkcore.sqlite.core.6.0.25.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\microsoft.extensions.dependencymodel\\6.0.0\\microsoft.extensions.dependencymodel.6.0.0.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.2\\sqlitepclraw.bundle_e_sqlite3.2.1.2.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\sqlitepclraw.core\\2.1.2\\sqlitepclraw.core.2.1.2.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.2\\sqlitepclraw.lib.e_sqlite3.2.1.2.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.2\\sqlitepclraw.provider.e_sqlite3.2.1.2.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\smaha\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "API depende de Microsoft.EntityFrameworkCore (>= 6.0.25-rc.1.23419.6), mas Microsoft.EntityFrameworkCore 6.0.25-rc.1.23419.6 não foi encontrado. A melhor correspondência aproximada de Microsoft.EntityFrameworkCore 6.0.25 foi resolvida.",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
