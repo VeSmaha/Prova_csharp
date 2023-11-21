@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+.tabela-tarefas {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.tabela-tarefas th, .tabela-tarefas td {
+    text-align: center;
+    border: 1px solid #000; /* Adicione um valor para especificar a espessura da borda. Por exemplo, 1px. */
+    padding: 8px; /* Adicione um espaçamento interno para as células, se desejar. */
+}
+
+.tabela-tarefas th {
+    background-color: rgba(123, 197, 240, 0.485);
+}
+h1{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+}
+a{
+    color: rgb(0, 0, 0);
+    padding:5px;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: rgba(123, 197, 240, 0.485);
+    border-radius: 3px;
+}
+button{
+    background-color: rgba(123, 197, 240, 0.485);
+    border-color:  rgba(123, 197, 240, 0.485);
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 3px;
+}

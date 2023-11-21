@@ -1,1 +1,29 @@
-<p>listar works!</p>
+<!-- <p>produto-listar works!</p> -->
+<h1>Tabela de Tarefas</h1>
+<table class="tabela-tarefas">
+    <tr>
+        <th>id</th>
+        <th>Titulo</th>
+        <th>Descrição</th>
+        <th>Categoria</th>
+        <th>Status</th>
+    </tr>
+    <tr *ngFor="let t of Tarefas">
+        <td>{{t.tarefaId}}</td>
+        <td>{{t.titulo}}</td>
+        <td>{{t.descricao}}</td>
+        <td>{{t.categoria?.nome}}</td>
+        <!-- <td>
+            <button (click)="deletar(p.produtoID)">Deletar</button> 
+        </td> -->
+        <!-- <td>
+            <a href="" routerLink="/pages/produto/alterar/{{
+                p.produtoID
+              }}">Atualizar</a>
+        </td> -->
+        <td>
+            {{t.status}}
+        </td>
+    </tr>
+</table>
+

@@ -1,0 +1,24 @@
+<div class="container">
+    <div>
+    <label for="">Titulo</label>
+    <input type="text" [(ngModel)]="titulo">
+
+    <label for="">Descrição</label>
+    <input type="text" [(ngModel)]="descricao"><!--Nome da ngModel mesmo da var no ts-->
+
+    <label for="">Status</label>
+    <input type="text" [(ngModel)]="status">
+
+    <p>Categoria</p>
+    <select [(ngModel)]="categoriaId"> 
+        <option  *ngFor="let c of categorias"
+        [value]="c.categororiaId">
+        {{ c.nome }}
+        </option>
+
+    </select>
+
+    <button (click)="cadastrar()">Cadastrar tarefa</button>
+</div>
+</div>
+

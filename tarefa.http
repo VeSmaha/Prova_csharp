@@ -8,10 +8,10 @@ POST {{base_url}}/cadastrar
 Content-Type: application/json
 
 {
-  "Titulo": "Compras para a Casa",
+  "Titulo": "Compras ",
   "Descricao": "1. prato 2. copo",
   "CategoriaId": 2,
-  "Status": "Em andamento"
+  "Status": "Não iniciada"
 }
 
 ### get Lista "Em andamento" e "Não iniciada"
