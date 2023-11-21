@@ -6,13 +6,10 @@
     <label for="">Descrição</label>
     <input type="text" [(ngModel)]="descricao"><!--Nome da ngModel mesmo da var no ts-->
 
-    <label for="">Status</label>
-    <input type="text" [(ngModel)]="status">
-
     <p>Categoria</p>
     <select [(ngModel)]="categoriaId"> 
         <option  *ngFor="let c of categorias"
-        [value]="c.categororiaId">
+        [value]="c.categoriaId">
         {{ c.nome }}
         </option>
 

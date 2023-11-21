@@ -5,5 +5,5 @@ export interface Tarefa{
     descricao: string;
     categoria?: Categoria;
     categoriaId?: number;
-    status: string;
+    status?: string;
   }

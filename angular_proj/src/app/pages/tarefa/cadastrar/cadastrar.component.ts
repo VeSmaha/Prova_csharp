@@ -10,14 +10,10 @@ import { Tarefa } from 'src/app/models/Tarefa.model';
   styleUrls: ['./cadastrar.component.css']
 })
 export class CadastrarComponent {
-
-  nome! : string;
-
-  descricao! : string;
-
+  
   titulo! : string;
 
-  status! : string;
+  descricao! : string;
 
   categoriaId! : number;
 
@@ -48,7 +44,7 @@ export class CadastrarComponent {
     let tarefa : Tarefa = {
       titulo : this.titulo,
       descricao : this.descricao,
-      status: this.status,
+      status: "Não iniciada",
       categoriaId: this.categoriaId
     };
     console.log("Dados Enviados:", tarefa);
@@ -56,8 +52,8 @@ export class CadastrarComponent {
   const headers = { 'Content-Type': 'application/json' };
     this.client.post<Tarefa>("https://localhost:7015/api/tarefa/cadastrar", tarefa).subscribe({
       //requisisao com sucesso cai aqui no next
-      next: (Produto)=>{
-        console.table(Produto);
+      next: (Tarefa)=>{
+        console.table(Tarefa);
         this.router.navigate(["/pages/tarefa/listar"]);
 
       },//caso de erro 
