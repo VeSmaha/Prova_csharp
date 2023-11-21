@@ -27,6 +27,5 @@ export class ListarComponent {
       error:(erro)=>{console.log("Erro: "+ erro)}
     })
   }
-
-  
+ 
 }
