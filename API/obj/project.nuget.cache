@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LBdXU03XxnR3+UCrfqskyoQreg1BCaLw2d/0LqaN1+Mw6KnTC4WduPF44eXZr77KCPqqcFyOYX9FzIQtPMl4XQ==",
+  "dgSpecHash": "K8S5a6Gx8q/bSVmfiRyUJEiXh/Dbh6v/cd9cS3Q+pt4UmMmqYX1mg+nO8/uScVpgpTCr13DKj1+B4HdThLBndg==",
   "success": true,
-  "projectFilePath": "D:\\vezinha\\Prova_csharp\\Api\\API.csproj",
+  "projectFilePath": "D:\\vezinha\\Prova_csharp\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\smaha\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\smaha\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.25\\microsoft.data.sqlite.core.6.0.25.nupkg.sha512",
@@ -46,7 +46,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "API depende de Microsoft.EntityFrameworkCore (>= 6.0.25-rc.1.23419.6), mas Microsoft.EntityFrameworkCore 6.0.25-rc.1.23419.6 não foi encontrado. A melhor correspondência aproximada de Microsoft.EntityFrameworkCore 6.0.25 foi resolvida.",
+      "message": "Api depends on Microsoft.EntityFrameworkCore (>= 6.0.25-rc.1.23419.6) but Microsoft.EntityFrameworkCore 6.0.25-rc.1.23419.6 was not found. An approximate best match of Microsoft.EntityFrameworkCore 6.0.25 was resolved.",
       "libraryId": "Microsoft.EntityFrameworkCore",
       "targetGraphs": [
         "net6.0"

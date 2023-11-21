@@ -1698,9 +1698,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\vezinha\\Prova_csharp\\Api\\API.csproj",
-      "projectName": "API",
-      "projectPath": "D:\\vezinha\\Prova_csharp\\Api\\API.csproj",
+      "projectUniqueName": "D:\\vezinha\\Prova_csharp\\Api\\Api.csproj",
+      "projectName": "Api",
+      "projectPath": "D:\\vezinha\\Prova_csharp\\Api\\Api.csproj",
       "packagesPath": "C:\\Users\\smaha\\.nuget\\packages\\",
       "outputPath": "D:\\vezinha\\Prova_csharp\\Api\\obj\\",
       "projectStyle": "PackageReference",
@@ -1776,7 +1776,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "API depende de Microsoft.EntityFrameworkCore (>= 6.0.25-rc.1.23419.6), mas Microsoft.EntityFrameworkCore 6.0.25-rc.1.23419.6 não foi encontrado. A melhor correspondência aproximada de Microsoft.EntityFrameworkCore 6.0.25 foi resolvida.",
+      "message": "Api depends on Microsoft.EntityFrameworkCore (>= 6.0.25-rc.1.23419.6) but Microsoft.EntityFrameworkCore 6.0.25-rc.1.23419.6 was not found. An approximate best match of Microsoft.EntityFrameworkCore 6.0.25 was resolved.",
       "libraryId": "Microsoft.EntityFrameworkCore",
       "targetGraphs": [
         "net6.0"
